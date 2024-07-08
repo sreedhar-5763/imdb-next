@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.logo > .brand {
+  background-color: #fb923c;
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #0f172a;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.logo > .clone {
+  font-size: 20px;
+  color: #475569;
+}

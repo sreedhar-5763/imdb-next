@@ -1,10 +1,10 @@
 import { fetchMovies } from "@/lib/movies";
 import { MoviesList } from "@/components";
-import { IHome } from "./types";
+import { IMoviesPage } from "./types";
 
 const API_KEY = process.env.API_KEY;
 
-export default async function Home({ searchParams }: IHome) {
+export default async function MoviesPage({ searchParams }: IMoviesPage) {
   const { genre } = searchParams;
   const url = `https://api.themoviedb.org/3/${
     genre === "fetchTopRated" ? "movie/top_rated" : "trending/all/week"

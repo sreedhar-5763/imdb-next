@@ -1,0 +1,41 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRow > p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+}
+
+.gap18 {
+  gap: 18px;
+}
+
+.gap4 {
+  gap: 4px;
+}
+
+.svg {
+  width: 18px;
+  height: auto;
+}
+
+.movieExtraInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.movieExtraInfo > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.movieExtraInfo > p > span {
+  font-weight: 400;
+  color: #475569;
+}

@@ -1,0 +1,12 @@
+.menuItem {
+  font-size: 18px;
+  color: #475569;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline solid #475569 2px;
+  text-underline-offset: 4px;
+  color: #0f172a;
+}
